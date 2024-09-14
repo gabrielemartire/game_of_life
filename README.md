@@ -1,12 +1,12 @@
-### game of life
+# game of life
 https://it.wikipedia.org/wiki/Gioco_della_vita
 
-# Crea un file Gemfile nella directory del tuo progetto, automaticamente.
+### Crea un file Gemfile nella directory del tuo progetto, automaticamente.
 > bundle init
 
 
 
-#nel Gemfile
+### nel Gemfile
 questo me lo ha messo in automatico
 > source 'https://rubygems.org'
 
@@ -21,8 +21,8 @@ https://ruby-doc.com/3.0.7/exts/io/console/IO.html
 key pressed
 https://gist.github.com/acook/4190379
 
-
-
-
-# installa la gemma
+### installa la gemma
 > bundle install --path vendor/bundle
+
+### run
+> ruby index.rb
