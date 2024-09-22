@@ -30,3 +30,6 @@ https://stackoverflow.com/questions/6556280/read-input-from-console-in-ruby
 
 ### run
 > ruby index.rb
+
+### output
+![CleanShot 2024-09-22 at 15 43 30](https://github.com/user-attachments/assets/48dc4493-869f-4fec-805e-b08a37ce1f4f)
