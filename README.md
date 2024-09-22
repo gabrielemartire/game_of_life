@@ -51,6 +51,6 @@ Alcune risorse utili per comprendere come utilizzare `io-console`:
 - https://ruby-doc.com/3.0.7/exts/io/console/IO.html#method-i-raw
 - https://gist.github.com/acook/4190379#file-keypress-rb-L10
 ### Gestione degli input da tastiera
-https://gist.github.com/acook/4190379
-https://stackoverflow.com/questions/6556280/read-input-from-console-in-ruby
+- https://gist.github.com/acook/4190379
+- https://stackoverflow.com/questions/6556280/read-input-from-console-in-ruby
 
