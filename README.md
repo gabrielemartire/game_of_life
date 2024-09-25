@@ -1,36 +1,34 @@
 # Game of Life
 [wikipedia.org/wiki/Conway's_Game_of_Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
-## Installazione (phase 1)
+## inizializzazione progetto 
+
+> [!NOTE]
+> Ruby@3.3
 
 ### 1. Creazione del Gemfile
-Per iniziare, crea un file `Gemfile` nella directory del progetto utilizzando il comando: `bundle init`
+- Crea un file `Gemfile` nella directory del progetto utilizzando il comando: `bundle init`
+- Nel file `Gemfile` assicurati di avere la seguente riga: `source 'https://rubygems.org'`
 
-Nel file `Gemfile` assicurati di avere la seguente riga: `source 'https://rubygems.org'`
-
-### 2. Aggiungere la gemma io-console
-La gemma io-console è necessaria per gestire gli input da console. Aggiungila al `Gemfile` con questa riga: `add "io-console"`
-Ora mel file `Gemfile` assicurati di avere la seguente riga: `gem 'io-console'`
+### 2. Gemma io-console
+La gemma io-console è necessaria per gestire gli input da console. 
+- Aggiungi al `Gemfile` con `add "io-console"`
+- Ora mel file `Gemfile` assicurati di avere la seguente riga: `gem 'io-console'`
 
 Maggiori informazioni sulla gemma `io-console` sono disponibili nella [repo ufficiale](https://github.com/ruby/io-console)
 
-### 3. Installazione delle dipendenze
-Per installare tutte le gemme elencate nel Gemfile, esegui: `bundle install`
+### 3. Dipendenze
+Per installare tutte le gemme elencate nel `Gemfile`, esegui: `bundle install`
+> [!CAUTION]
+> in caso di errore eliminare `Gemfile.lock` poi eseguire `bundle install`
 
-## Esecuzione del Progetto (phase 1)
-### Una volta che tutto è pronto, puoi eseguire il programma con il seguente comando: `ruby main.rb`
+## Esecuzione del Progetto da console
+```bash
+ruby main.rb
+```
 
 ### output
 ![CleanShot 2024-09-22 at 15 43 30](https://github.com/user-attachments/assets/48dc4493-869f-4fec-805e-b08a37ce1f4f)
-
-
-> !IMPORTANT
-> Ruby@3.3
-
-IN CASO DI ERRORE
-- eliminare Gemfile.lock
-- `bundle install`
-
 
 ## Link utili
 ### Utilizzo della Gemma io-console
